@@ -1,0 +1,40 @@
+/*rules that apply to all devices */
+body {
+    background-color: rgb (255,64,129); /* background color on small screens */
+    font-size: 16px; /* default font size is 16px */
+}
+
+/* rules that apply ONLY to screens 768 pixels and wider */
+@media (min-width: 768px) {
+    body {
+        background-image: url(...); /* use background image on larger screens */
+        font-size: 18px; /* increase font size to 18 pixels for larger screens */
+    }
+}
+
+/* Default font on entire page to Nunito Sans, 16px size */
+* {
+    font-family: "Nunito Sans";
+    font-size: 16px;
+}
+
+/* Set top-level and second-level headings to Raleway font, 300 weight */
+h1, h2 {
+    font-family: Raleway;
+    font-weight: 300;
+}
+
+/* Top-level heading size set to 500% of base font size, removed white space in header */
+h1 {
+    font-size: 500%;
+    margin-top: 0px;
+}
+
+/* Add main background image, stretch to width of window, center in window, set header text color to white, stretch open header */
+main {
+    background-image: url(../img/under-construction.jpg);
+    background-size: center;
+    background-position: center;
+    color: white;
+    height: 3.5in;
+}
