@@ -24,14 +24,8 @@ h1, h2 {
     font-weight: 300;
 }
 
-/* Top-level heading size set to 500% of base font size, removed white space in header */
-h1 {
-    font-size: 500%;
-    margin-top: 0px;
-}
-
-/* Add main background image, stretch to width of window, center in window, set header text color to white, stretch open header */
-main {
+/* Add footer background image, stretch to width of window, center in window, set header text color to white, stretch open header */
+footer {
     background-image: url(../img/under-construction.jpg);
     background-size: center;
     background-position: center;
