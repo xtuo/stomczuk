@@ -25,10 +25,14 @@ h1, h2 {
 }
 
 /* Add footer background image, stretch to width of window, center in window, set header text color to white, stretch open header */
-footer {
-    background-image: url(../img/under-construction.jpg);
-    background-size: center;
+header {
+    background-image: url(../img/classroom.jpg);
+    background-size: cover;
     background-position: center;
-    color: white;
     height: 3.5in;
+}
+
+/* Augment body attributes */
+main {
+    padding-top: 0em;
 }
