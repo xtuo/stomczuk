@@ -1,0 +1,37 @@
+v
+
+/* Toggle padding on main */
+* {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/* add padding to body of text */
+body {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+/* left-align h1 and emphasize */
+h1 {
+    padding-left: 0em;
+}
+
+/* modify h4 */
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* text font */
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* plus margins on outside of div containers */
+#wur, #wip, #pub {
+    padding-bottom: 3em;
+}
+
+.funding {
+    font-style: bold;
+}

@@ -1,0 +1,6 @@
+/* Set background of body */
+* {
+    background-color: lightgray;
+    color: black;
+}
+
