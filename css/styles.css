@@ -1,38 +1,90 @@
+/* Contain padding and borders in width calcs */
+* {
+    box-sizing: border-box;
+}
+
 /*rules that apply to all devices */
-body {
-    background-color: rgb (255,64,129); /* background color on small screens */
+header h1 {
+    font-size: 300%;
+    font-family: sans-serif;
+    padding-left: 12px;
+    margin-top: 0em;
+    padding-top: 12px;
+}
+
+header p {
+    font-family: Raleway;
+    padding-left: 12px;
     font-size: 16px; /* default font size is 16px */
 }
 
 /* rules that apply ONLY to screens 768 pixels and wider */
 @media (min-width: 768px) {
-    body {
-        background-image: url(...); /* use background image on larger screens */
+    header h1 {
+        font-size: 400%;
+    }
+
+    header p {
         font-size: 18px; /* increase font size to 18 pixels for larger screens */
     }
 }
 
-/* Default font on entire page to Nunito Sans, 16px size */
-* {
-    font-family: "Nunito Sans";
-    font-size: 16px;
-}
-
-/* Set top-level and second-level headings to Raleway font, 300 weight */
-h1, h2 {
-    font-family: Raleway;
-    font-weight: 300;
-}
-
-/* Add footer background image, stretch to width of window, center in window, set header text color to white, stretch open header */
+/* default header background color and gradient */
 header {
+    background-color: lightgray;
+    background-image: -webkit-gradient(left top, from(gray), to(white));
+    background-image: -webkit-linear-gradient(bottom right, gray, white);
+    background-image: -moz-linear-gradient(bottom right, gray, white);
+    background-image: linear-gradient(to bottom right, gray, white);
+    color: black;
+}
+
+/* Navbar properties */
+div.container-fluid {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+ul.nav.navbar-nav {
+    margin: auto;
+    padding-top: 0.25em;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    padding-top: 0em;
+}
+
+ul.nav.navbar-nav.navbar-right a {
+    padding-left: 1em;
+    padding-right: 0em;
+}
+
+nav.navbar.navbar-default {
+    margin-bottom: 0px; 
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+}
+
+/* Social media icons */
+.fa {
+    font-size: 200%;
+}
+
+/* Add main background image */
+main {
     background-image: url(../img/classroom.jpg);
     background-size: cover;
-    background-position: center;
-    height: 3.5in;
+    background-position: right;
+    height: 5.6in;
 }
 
-/* Augment body attributes */
-main {
-    padding-top: 0em;
+/* footer properties */
+.flex-row {
+    display: flex;
+    background-color: lightgray;
+    background-image: -webkit-gradient(left top, from(gray), to(white));
+    background-image: -webkit-linear-gradient(bottom right, gray, white);
+    background-image: -moz-linear-gradient(bottom right, gray, white);
+    background-image: linear-gradient(to bottom right, gray, white);
 }
