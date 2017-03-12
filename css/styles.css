@@ -73,18 +73,11 @@ nav.navbar.navbar-default {
 
 /* Add main background image */
 main {
+    background-color: lightgray;
     background-image: url(../img/classroom.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: right;
-    height: 5.6in;
+    height: 40em;
 }
 
-/* footer properties */
-.flex-row {
-    display: flex;
-    background-color: lightgray;
-    background-image: -webkit-gradient(left top, from(gray), to(white));
-    background-image: -webkit-linear-gradient(bottom right, gray, white);
-    background-image: -moz-linear-gradient(bottom right, gray, white);
-    background-image: linear-gradient(to bottom right, gray, white);
-}
