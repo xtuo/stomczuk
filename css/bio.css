@@ -1,0 +1,89 @@
+/* Set background of body */
+body {
+    background-color: lightgray;
+    background-image: -webkit-gradient(left top, from(gray), to(white));
+    background-image: -webkit-linear-gradient(bottom right, gray, white);
+    background-image: -moz-linear-gradient(bottom right, gray, white);
+    background-image: linear-gradient(to bottom right, gray, white);
+    color: black;
+}
+
+footer {
+    background-color: lightgray;
+    background-image: -webkit-gradient(left top, from(gray), to(white));
+    background-image: -webkit-linear-gradient(bottom right, gray, white);
+    background-image: -moz-linear-gradient(bottom right, gray, white);
+    background-image: linear-gradient(to bottom right, gray, white);
+    color: black;    
+}
+
+/* characteristics for header */
+
+#sjt {
+    font-size: 300%;
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-bottom: 18px;
+}
+
+/*characteristics for paragraphs in bio */
+
+#bio {
+    font-family: Raleway;
+    font-size: 18px; /* default font size is 16px */
+    padding-right: 60px;
+    padding-bottom: 30px;
+}
+
+#cand {
+    padding-bottom: 18px;
+}
+
+#inst {
+    padding-bottom: 18px;
+}
+
+#pers {
+    padding-bottom: 18px;
+}
+
+/* pad bottom of body */
+body {
+    padding-bottom: 30px;
+}
+
+/* Navbar properties */
+div.container-fluid {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+ul.nav.navbar-nav {
+    margin: auto;
+    padding-top: 0.25em;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    padding-top: 0em;
+}
+
+ul.nav.navbar-nav.navbar-right a {
+    padding-left: 1em;
+    padding-right: 0em;
+}
+
+nav.navbar.navbar-default {
+    margin-bottom: 0px; 
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+}
+
+#bs-example-navbar-collapse-1 {
+    padding-left: 36px;
+}
+
+/* Social media icons */
+.fa {
+    font-size: 200%;
+}

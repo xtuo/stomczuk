@@ -22,12 +22,10 @@ header p {
 @media (min-width: 768px) {
     header h1 {
         font-size: 400%;
-        padding-left: 30px;
     }
 
     header p {
         font-size: 18px; /* increase font size to 18 pixels for larger screens */
-        padding-left: 30px;
     }
 }
 
@@ -40,46 +38,3 @@ header {
     background-image: linear-gradient(to bottom right, gray, white);
     color: black;
 }
-
-/* Navbar properties */
-div.container-fluid {
-    padding-left: 0em;
-    padding-right: 0em;
-}
-
-ul.nav.navbar-nav {
-    margin: auto;
-    padding-top: 0.25em;
-}
-
-ul.nav.navbar-nav.navbar-right {
-    padding-top: 0em;
-}
-
-ul.nav.navbar-nav.navbar-right a {
-    padding-left: 1em;
-    padding-right: 0em;
-}
-
-nav.navbar.navbar-default {
-    margin-bottom: 0px; 
-    font-size: 16px;
-    font-family: sans-serif;
-    color: black;
-}
-
-/* Social media icons */
-.fa {
-    font-size: 200%;
-}
-
-/* Add main background image */
-main {
-    background-color: lightgray;
-    background-image: url(../img/classroom.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 40em;
-}
-

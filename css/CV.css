@@ -7,32 +7,38 @@
 header h1 {
     font-size: 300%;
     font-family: sans-serif;
-    padding-left: 12px;
+    padding-left: 24px;
     margin-top: 0em;
     padding-top: 12px;
-}
-
-header p {
-    font-family: Raleway;
-    padding-left: 12px;
-    font-size: 16px; /* default font size is 16px */
 }
 
 /* rules that apply ONLY to screens 768 pixels and wider */
 @media (min-width: 768px) {
     header h1 {
         font-size: 400%;
-        padding-left: 30px;
     }
 
     header p {
         font-size: 18px; /* increase font size to 18 pixels for larger screens */
-        padding-left: 30px;
     }
 }
 
-/* default header background color and gradient */
+/* new header img */
 header {
+    color: white;
+    vertical-align: baseline;
+    background-color: lightgray;
+    background-image: url(../img/prague.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20em;
+}
+
+/* add padding and background color to body of text */
+body {
+    padding-left: 0em;
+    padding-right: 0em;
     background-color: lightgray;
     background-image: -webkit-gradient(left top, from(gray), to(white));
     background-image: -webkit-linear-gradient(bottom right, gray, white);
@@ -68,18 +74,22 @@ nav.navbar.navbar-default {
     color: black;
 }
 
-/* Social media icons */
-.fa {
-    font-size: 200%;
-}
-
-/* Add main background image */
+/* remove pad main--for navbar alignment */
 main {
-    background-color: lightgray;
-    background-image: url(../img/classroom.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 40em;
+    padding-left: 0px;
 }
 
+/* bold h3 */
+main h3 {
+    font-weight: bold;
+}
+
+/* set font for CV text */
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* pad text in CV to align with h1 and navbar */
+div.cv-text {
+    padding-left: 30px;
+}

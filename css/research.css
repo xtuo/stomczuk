@@ -7,38 +7,63 @@
 header h1 {
     font-size: 300%;
     font-family: sans-serif;
-    padding-left: 12px;
+    padding-left: 24px;
     margin-top: 0em;
     padding-top: 12px;
-}
-
-header p {
-    font-family: Raleway;
-    padding-left: 12px;
-    font-size: 16px; /* default font size is 16px */
 }
 
 /* rules that apply ONLY to screens 768 pixels and wider */
 @media (min-width: 768px) {
     header h1 {
         font-size: 400%;
-        padding-left: 30px;
     }
 
     header p {
         font-size: 18px; /* increase font size to 18 pixels for larger screens */
-        padding-left: 30px;
     }
 }
 
-/* default header background color and gradient */
+/* new header img */
 header {
+    background-color: lightgray;
+    background-image: url(../img/zavadka.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 20em;
+}
+
+/* Set font and style for header */
+header h1 {
+    color: white;
+    font-size: 400%;
+    font-family: sans-serif;
+    padding-left: 32px;
+    margin-top: 0em;
+    padding-top: 12px;
+}
+
+/* Toggle padding on main and add background color (gradient) for entire page */
+main {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* add padding and background color to body of text */
+body {
+    padding-left: 0em;
+    padding-right: 0em;
     background-color: lightgray;
     background-image: -webkit-gradient(left top, from(gray), to(white));
     background-image: -webkit-linear-gradient(bottom right, gray, white);
     background-image: -moz-linear-gradient(bottom right, gray, white);
     background-image: linear-gradient(to bottom right, gray, white);
     color: black;
+}
+
+.title {
+    padding-left: 0em;
 }
 
 /* Navbar properties */
@@ -73,13 +98,29 @@ nav.navbar.navbar-default {
     font-size: 200%;
 }
 
-/* Add main background image */
-main {
-    background-color: lightgray;
-    background-image: url(../img/classroom.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    height: 40em;
+/* align margins (padding) for abstract titles */
+h2 {
+    padding-left: 40px;
+    padding-right: 48px;
 }
 
+/* modify h4 */
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* text font */
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* plus margins on outside of div containers */
+#wur, #wip, #pub {
+    padding-bottom: 3em;
+}
+
+/* pad text of research to align with h1 and navbar */
+div.research-text {
+    padding-left: 30px;
+    padding-top: 24px;
+}
